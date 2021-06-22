@@ -9,9 +9,12 @@ h1 {
 }
 
 p {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.50);
   font-family: 'Lexend Deca', sans-serif;
-  font-size: .8em;
+  font-size: .75em;
+  line-height: 1.8;
+  margin-bottom: 60px;
+  padding-right: 15px;
 }
 
 .container {
@@ -30,7 +33,11 @@ p {
 
 .even-col {
   justify-content: center;
-  padding: 5px 15px;
+  padding: 40px;
+}
+
+.even-col > * {
+  border: 1px solid #7FBCF8;
 }
 
 .sedan {
@@ -49,5 +56,17 @@ p {
   background-color: #f2f2f2;
   border: 0px;
   border-radius: 30px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: .75em;
   padding: 10px 21px;
+}
+
+.btn-1 {
+  color: #e38826;
+}
+.btn-2 {
+  color: #006970;
+}
+.btn-3 {
+  color: #004241;
 }
