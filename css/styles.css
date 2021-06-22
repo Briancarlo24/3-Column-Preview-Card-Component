@@ -2,6 +2,9 @@
 font-family: 'Big Shoulders Display', cursive;
 font-family: 'Lexend Deca', sans-serif;
 */
+body {
+  height: 100vh;
+}
 
 h1 {
   color: white;
@@ -14,34 +17,33 @@ p {
   font-size: .75em;
   line-height: 1.8;
   margin-bottom: 60px;
-  padding-right: 15px;
 }
 
 .container {
   background-color: #f2f2f2;
-  padding: 7% 20%;
-}
-
-.borders {
-  border: 1px solid #7FBCF8;
-  margin: 1px;
+  padding: 7% 15%;
 }
 
 .row {
   display: flex;
+  justify-content: center;
 }
 
 .even-col {
   justify-content: center;
-  padding: 40px;
+  flex-wrap: wrap;
+  padding: 4%;
+  max-width: 168px;
 }
 
 .even-col > * {
-  border: 1px solid #7FBCF8;
+  flex: 1;
+  flex-basis: 100%;
 }
 
 .sedan {
   background-color: #e38826;
+  border-radius: 5px 0 0 5px;
 }
 
 .suv {
@@ -50,23 +52,32 @@ p {
 
 .luxury {
   background-color: #004241;
+  border-radius: 0 5px 5px 0;
 }
 
 .btn {
   background-color: #f2f2f2;
-  border: 0px;
   border-radius: 30px;
   font-family: 'Lexend Deca', sans-serif;
   font-size: .75em;
-  padding: 10px 21px;
+  padding: 12px 24px;
+}
+
+.btn:active, .btn:after {
+  background-color: rgba(255, 255, 255, 0.0);
+  border: 1px solid #f2f2f2;
+  color: #f2f2f2;
 }
 
 .btn-1 {
+  border: 1px solid #e38826;
   color: #e38826;
 }
 .btn-2 {
+  border: 1px solid #006970;
   color: #006970;
 }
 .btn-3 {
+  border: 1px solid #004241;
   color: #004241;
 }

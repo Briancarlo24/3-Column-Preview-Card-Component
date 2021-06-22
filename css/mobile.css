@@ -1,0 +1,29 @@
+@media screen and (max-width: 375px) {
+  p {
+    margin-bottom: 20px;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .even-col {
+    padding: 15%;
+  }
+
+  .sedan {
+    border-radius: 5px 5px 0 0;
+  }
+
+  .luxury {
+    border-radius: 0 0 5px 5px;
+  }
+
+  .btn {
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: .7em;
+    padding: 10px 22px;
+  }
+}
