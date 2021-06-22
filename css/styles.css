@@ -1,0 +1,53 @@
+/*
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+*/
+
+h1 {
+  color: white;
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: .8em;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 7% 20%;
+}
+
+.borders {
+  border: 1px solid #7FBCF8;
+  margin: 1px;
+}
+
+.row {
+  display: flex;
+}
+
+.even-col {
+  justify-content: center;
+  padding: 5px 15px;
+}
+
+.sedan {
+  background-color: #e38826;
+}
+
+.suv {
+  background-color: #006970;
+}
+
+.luxury {
+  background-color: #004241;
+}
+
+.btn {
+  background-color: #f2f2f2;
+  border: 0px;
+  border-radius: 30px;
+  padding: 10px 21px;
+}
