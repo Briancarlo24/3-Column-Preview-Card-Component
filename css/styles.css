@@ -4,6 +4,8 @@ font-family: 'Lexend Deca', sans-serif;
 */
 body {
   height: 100vh;
+  margin: 0;
+  text-align: center;
 }
 
 h1 {
@@ -21,7 +23,7 @@ p {
 
 .container {
   background-color: #f2f2f2;
-  padding: 7% 15%;
+  padding: 7% 20%;
 }
 
 .row {
@@ -33,7 +35,6 @@ p {
   justify-content: center;
   flex-wrap: wrap;
   padding: 4%;
-  max-width: 168px;
 }
 
 .even-col > * {
@@ -60,7 +61,7 @@ p {
   border-radius: 30px;
   font-family: 'Lexend Deca', sans-serif;
   font-size: .75em;
-  padding: 12px 24px;
+  padding: 1.2em 2.4em;
 }
 
 .btn:active, .btn:after {
